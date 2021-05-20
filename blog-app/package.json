@@ -1,0 +1,23 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "firebase deploy --only hosting:blog-app-1234"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/firebase": "^7.5.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.9.1",
+    "firebase": "^8.6.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.3"
+  }
+}
